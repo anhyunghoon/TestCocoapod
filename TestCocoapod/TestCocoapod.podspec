@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestCocoapod'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'TestCocoapod is good library'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/anhyunghoon/TestCocoapod.git'
+  s.homepage         = 'https://github.com/anhyunghoon/TestCocoapod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hyeonghoonan' => 'hhan1993@gmail.com' }
@@ -30,8 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  #s.source_files = 'TestCocoapod/Classes/**/*.swift'
-  s.source_files = "TestCocoapod/Classes/**/*.{h,m,swift}"
+  s.source_files = 'TestCocoapod/Classes/**/*'
+  #s.source_files = "TestCocoapod/Classes/**/*.{h,m,swift}"
+  #s.source_files = "**/*.{h,m,swift}"
   #s.source_files = 'Classes/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
@@ -40,5 +41,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  s.swift_versions = '5.0'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
