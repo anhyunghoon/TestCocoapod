@@ -1,0 +1,22 @@
+{
+  "name": "TestCocoapod",
+  "version": "0.1.0",
+  "summary": "A short description of TestCocoapod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hyeonghoonan/TestCocoapod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hyeonghoonan": "hhan1993@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hyeonghoonan/TestCocoapod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TestCocoapod/Classes/**/*"
+}
